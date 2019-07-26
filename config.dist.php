@@ -13,7 +13,7 @@
 		define('baseuiPageUrl', $wgScript.'/Special:Opasnet_Base');
 	}
 	
-	define('obImportPagePrefix', "Op_en");
+	define('obImportPagePrefix', ""); // Set data ID prefix
 	define('obImportComment', "Uploaded using Opasnet Base Import");
 	
 	// $wikis = array('Opasnet' => 1, 'FI Opasnet' => 2, 'Heande' => 3, 'TEST_ERAC' => 4);
@@ -29,7 +29,7 @@
 	if (! defined('OB_INTERFACE_URL'))
 		define('OB_INTERFACE_URL', 'http://'.''.'/opasnet_base_2/index.php'); // modify to the appropriate OpasnetBase2 server url
 	
- 	define('obImportDatabaseUsername', ''); // user name matching this wiki in OpasnetBase2 user database
+ 	define('obImportDatabaseUsername', ''); // user name matching this wiki in OpasnetBase2 server database
  	define('obImportDatabasePassword', ''); // corresponding password/secret 
 
 	define('obImportChunkSize', 3000); // Data chunk size in rows for uploading
