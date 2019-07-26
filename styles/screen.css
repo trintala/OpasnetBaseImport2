@@ -1,0 +1,74 @@
+div#smokescreen
+{
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #fff;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	z-index: 50;
+}
+
+div.popup
+{
+	border: solid 1px black;
+	background-color: #fff;
+	padding: 10px;
+	position: absolute;
+	left: 10%;
+	top: 10px;
+	display: none;
+	min-width: 200px;
+	z-index: 100;
+}
+
+.popup_actions
+{
+	margin-top: 1em;
+	text-align: right;
+}
+
+div.csv_file_upload
+{
+	padding: 10px;
+	border: solid 1px #aaa;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #eee;
+	width: 400px;
+}
+
+div#preview
+{
+	max-width: 800px;
+	overflow: auto;
+	border: solid 1px #aaa;
+}
+
+table.preview
+{
+	border-collapse: collapse;
+}
+
+table.preview th
+{
+	white-space: nowrap;
+	border: solid 1px #aaa;
+	background-color: #eee;
+	font-weight: bold;
+}
+
+table.preview td
+{
+	white-space: nowrap;
+	border: solid 1px #aaa;
+}
+
+div#special
+{
+	opacity: 0.5;
+}
+

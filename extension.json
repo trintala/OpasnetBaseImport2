@@ -1,0 +1,36 @@
+{
+	"name": "OpasnetBaseImport",
+	"version": "2.1.0",
+	"author": ["Einari Happonen", "Juha Villman", "Teemu Rintala"],
+	"url": "http://http://en.opasnet.org/w/Uploading_to_Opasnet_Base",
+	"descriptionmsg": "opasnet_import_desc",
+	"type": "specialpage",
+	"SpecialPages": {
+		"OpasnetBaseImport": "OpasnetBaseImport"
+	},
+	"ExtensionMessagesFiles": {
+		"OpasnetBaseImport": "OpasnetBaseImport.i18n.php",
+		"OpasnetBaseImportAlias": "OpasnetBaseImport.alias.php"
+	},
+	"AutoloadClasses": {
+		"OpasnetBaseImport": "OpasnetBaseImport_body.php",
+		"OpasnetBaseImportParser": "OpasnetBaseImport.parser.php",
+		"OpasnetBaseUpload": "lib/OpasnetBaseUpload.php"
+	},
+	"ResourceModules": {
+		"ext.OpasnetBaseImport": {
+			"scripts": "modules/scripts.js",
+			"styles": "modules/screen.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "OpasnetBaseImport"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"OpasnetBaseImportParser::efOpasnetBaseImportInit"
+		]
+	},
+	"manifest_version": 1
+}
