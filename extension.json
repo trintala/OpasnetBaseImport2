@@ -4,6 +4,7 @@
 	"author": ["Einari Happonen", "Juha Villman", "Teemu Rintala"],
 	"url": "http://http://en.opasnet.org/w/Uploading_to_Opasnet_Base",
 	"descriptionmsg": "opasnet_import_desc",
+	"license-name": "MIT",
 	"type": "specialpage",
 	"SpecialPages": {
 		"OpasnetBaseImport": "OpasnetBaseImport"

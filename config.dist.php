@@ -22,7 +22,6 @@
 	
 	define('obImportDebug', true);
 	define('obImportUploadsPath', dirname(__FILE__)."/uploads");
-	//$obImportUploadsPath = "asdasdas";
 	
 	// Maximum file size in import
 	define('obImportFileMaxSize', "100000000");
